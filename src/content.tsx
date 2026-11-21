@@ -58,6 +58,36 @@ export const pillars: Pillar[] = [
   },
 ];
 
+export type App = { name: string; badge?: string; body: string; href: string; cta: string };
+
+export const apps: App[] = [
+  {
+    name: "Hyper",
+    body: "A terminal built on web technologies. We maintain it and carry the Hyper legacy forward.",
+    href: "https://hyper.quineglobal.com/",
+    cta: "Get Hyper",
+  },
+  {
+    name: "Quintodrome",
+    body: "A desktop music player for your own Navidrome library: an open alternative to the streaming apps.",
+    href: "https://github.com/quine-global/quintodrome",
+    cta: "View on GitHub",
+  },
+  {
+    name: "Quple",
+    body: "Call anyone by their Quine username. A desktop app built with Tauri on Jitsi Meet.",
+    href: "https://github.com/quine-global/quple",
+    cta: "View on GitHub",
+  },
+  {
+    name: "Quine Linux",
+    badge: "alpha",
+    body: "A bootc image built on our Aurora build: an immutable desktop you can rebuild from source.",
+    href: "https://linux.quineglobal.com/",
+    cta: "Try Quine Linux",
+  },
+];
+
 export type Featurette = { image: string; title: string; body: ReactNode };
 
 export const featurettes: Featurette[] = [

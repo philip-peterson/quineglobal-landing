@@ -9,6 +9,7 @@ export default function SiteNav() {
         <Navbar.Toggle aria-controls="site-nav" />
         <Navbar.Collapse id="site-nav">
           <Nav className="me-auto mb-2 mb-md-0">
+            <Nav.Link href="#apps">Apps</Nav.Link>
             <Nav.Link href={links.linkedin}>LinkedIn</Nav.Link>
             <Nav.Link href={links.github}>GitHub</Nav.Link>
             <Nav.Link href={links.blog}>Blog</Nav.Link>

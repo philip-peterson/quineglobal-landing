@@ -3,6 +3,7 @@ import SiteNav from "./components/SiteNav";
 import Hero from "./components/Hero";
 import Pillars from "./components/Pillars";
 import Featurettes from "./components/Featurettes";
+import Apps from "./components/Apps";
 import { links } from "./content";
 
 export default function App() {
@@ -15,6 +16,8 @@ export default function App() {
         <Hero />
         <Container className="marketing">
           <Pillars />
+          <hr className="featurette-divider" />
+          <Apps />
           <Featurettes />
         </Container>
         <footer className="container">
